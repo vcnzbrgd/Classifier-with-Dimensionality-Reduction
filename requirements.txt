@@ -1,0 +1,7 @@
+pandas
+numpy
+plotly
+seaborn
+scikit-learn
+tensorflow
+urllib3<2.0
