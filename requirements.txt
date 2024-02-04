@@ -3,6 +3,7 @@ numpy
 plotly
 seaborn
 scikit-learn
+xgboost
 tensorflow
 urllib3<2.0
 pyarrow
