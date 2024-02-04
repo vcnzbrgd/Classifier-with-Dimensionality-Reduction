@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import KernelPCA
 
 def plot_2d(x, y, title='title'):
     """
@@ -47,7 +48,7 @@ def plot_3d(x, y, z, title='title', xlabel='X axis', ylabel='Y axis', zlabel='Z 
     # gradient is the distance from origin
     gradient = np.sqrt(x**2 + y**2, z**2)
 
-    fig = plt.figure(figsize=(10, 7))
+    fig = plt.figure(figsize=(12, 8))
     ax = fig.add_subplot(111, projection='3d')
     scatter = ax.scatter(x, y, z, c=gradient, cmap='viridis')
     plt.colorbar(scatter, label='Distance from origin')
