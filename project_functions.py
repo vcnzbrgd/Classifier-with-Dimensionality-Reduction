@@ -5,6 +5,11 @@ import seaborn as sns
 from pandas.plotting import scatter_matrix
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import KernelPCA
+from xgboost import XGBClassifier
+from sklearn.metrics import accuracy_score
+import itertools
+import tqdm
+
 
 def plot_2d(x, y, title='title'):
     """
