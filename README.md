@@ -11,6 +11,7 @@ In this test you are provided with a classification dataset.
   a. take a sheet of paper and draw a bullseye.<br />
   b. fold the piece of paper, creating a spiral.<br />
   c. flood the dataset in 10 dimensions.<br />
+
 Can you use ML techniques to reverse the data generation process? Can you display step a. visually?
 Write and submit a short report (max 2 pages) in which you briefly explain how you made 1) and 2). Which techniques did you use? Which analysis did you do to reach the objective?
 If you completed 2), add to the report a scatterplot for step a.
