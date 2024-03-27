@@ -7,7 +7,7 @@ In this test you are provided with a classification dataset.
 
 1) write and train a classifier that aims to maximise out-of-sample accuracy. Use "input_train.csv" and "label_train.csv" to train your classifier and make your predictions running your classifier on "input_test.csv".
 
-2) I will give you some hints on how the dataset is made:
+2) I will give you some hints on how the dataset is made:\n
   a. take a sheet of paper and draw a bullseye.
   b. fold the piece of paper, creating a spiral.
   c. flood the dataset in 10 dimensions.
