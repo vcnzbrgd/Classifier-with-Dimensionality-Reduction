@@ -1,6 +1,6 @@
 # Classifier with Dimensionality Reduction
 
-This project is a solution for an assessment as Data Scientist.
+This project is a solution for an assessment as Data Scientist for a Fintech active in the investment management sector.
 Here the instructions:
 
 In this test you are provided with a classification dataset.
